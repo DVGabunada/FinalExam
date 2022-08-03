@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PipeActivity">
+
+    <TextView
+        android:id="@+id/tvLblBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pipe Brand" />
+
+    <RadioButton
+        android:id="@+id/rbAmily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amily" />
+
+    <RadioButton
+        android:id="@+id/rbArad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arad" />
+
+    <RadioButton
+        android:id="@+id/rbAce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ace" />
+
+    <TextView
+        android:id="@+id/tvLblDiam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pipe Diameter" />
+
+    <RadioButton
+        android:id="@+id/rbPointThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.3" />
+
+    <RadioButton
+        android:id="@+id/rbPointFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.5" />
+
+    <RadioButton
+        android:id="@+id/rbOnePoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.0" />
+
+    <RadioButton
+        android:id="@+id/rbOnePtFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.5" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+</LinearLayout>
